@@ -2,7 +2,7 @@
   "name": "tes2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thorhsu.github.io/ticTacToe/build",
+  "homepage": "https://thorhsu.github.io/ticTacToe",
   "dependencies": {
     "install": "^0.10.2",
     "react": "^16.2.0",

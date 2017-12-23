@@ -1,5 +1,3 @@
-import Cell from '../components/Cell';
-
 const getInitCells = () => {
   const cells = [];
   for (let i = 0; i < 3; i += 1) {
@@ -63,7 +61,6 @@ export default (state = initialState, action) => {
   // clone state first, avoid mutate original state
   const cloneState = JSON.parse(JSON.stringify(state));
   const player = cloneState.player;
-  const playerVal = (player === 1) ? 1 : -1;
   switch (action.type) {
     case 'setMark':
       // 只有在沒有設定值時才可以設O或X

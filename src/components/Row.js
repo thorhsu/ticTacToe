@@ -1,7 +1,4 @@
-import { createStore } from 'redux';
-import { Provider, connect } from 'react-redux';
-import ReactDOM from 'react-dom';
-import React, { Component } from 'react';
+import React from 'react';
 import Cell from './Cell';
 
 export default ({ row, rowCells }) => {

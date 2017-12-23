@@ -1,8 +1,6 @@
-import { createStore } from 'redux';
-import { Provider, connect } from 'react-redux';
-import ReactDOM from 'react-dom';
+import { connect } from 'react-redux';
 import React from 'react';
-import { mapStateToProps, mapDispatchToProps } from './actions/actions';
+import { mapStateToProps } from './actions/actions';
 import Row from './components/Row';
 import './App.css';
 

@@ -10,11 +10,11 @@ const App = ({ cells, winner, finished }) => {
   if (finished) {
     end = 'end';
     if (winner === 1) {
-      showWinner = 'Player O win.';
+      showWinner = 'Player O wins.';
     } else if (winner === -1) {
-      showWinner = 'Player X win.';
+      showWinner = 'Player X wins.';
     } else {
-      showWinner = 'It is tie.';
+      showWinner = 'It is a tie.';
     }
   }
   return (

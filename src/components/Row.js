@@ -19,9 +19,10 @@ export default ({ row, rowCells }) => {
   return (
     <div>
       {
-           rowCells.map((cell, i) => (
+          rowCells.map((cell, i) => (
              <Cell key={`cell_${row}_${i}`} rowClass={classNm} row={row} column={i}/>
-      ))}
+          ))
+      }
     </div>
   );
 };

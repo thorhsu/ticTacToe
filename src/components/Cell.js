@@ -31,7 +31,9 @@ class Cell extends Component {
     }
     return (
       <span>
-        <input className={`${player} ${columnClass}  ${this.props.rowClass}`} onClick={() => this.props.setMark(this.props.row, this.props.column)} id={`block-${this.props.row}-${this.props.column}`} type="radio"/>
+        <input className={`${player} ${columnClass}  ${this.props.rowClass}`}
+          onClick={() => this.props.setMark(this.props.row, this.props.column)}
+          id={`block-${this.props.row}-${this.props.column}`} type="radio"/>
         <label htmlFor={`block-${this.props.row}-${this.props.column}`} ></label>
       </span>
     );

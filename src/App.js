@@ -24,7 +24,7 @@ const App = ({ cells, winner, finished }) => {
              <Row key={`line_${i}`} row={i} rowCells={row}/>
         ))}
         <div className={end}>
-		       <h3>{showWinner}</h3><a href="" >Restart</a>
+		      <h3>{showWinner}</h3><a href="" >Restart</a>
 		    </div>
       </div>
   );

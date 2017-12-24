@@ -15,4 +15,5 @@ ReactDOM.render(
     </Provider>
   , document.getElementById('root')
 );
+// 讓你在離線時可以使用
 registerServiceWorker();

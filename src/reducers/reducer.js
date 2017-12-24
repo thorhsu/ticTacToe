@@ -17,7 +17,7 @@ const initialState = {
 function winnerJudge(cells) {
   console.log(1);
   // 橫向判斷
-  for (var i = 0; i < 3; i += 1) {
+  for (let i = 0; i < 3; i += 1) {
     if (cells[i][0] + cells[i][1] + cells[i][2] === 3) {
       return 1;
     } else if (cells[i][0] + cells[i][1] + cells[i][2] === -3) {
